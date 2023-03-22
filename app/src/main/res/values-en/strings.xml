@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestActivity</string>
+    <string name="tv_Message1">Look up the people in your cell phone contacts on Messenger</string>
+    <string name="tv_Message2">By continuing to upload contacts, Facebook and Messenger will recommend connected contacts and display more relevant advertisements to you and others to help you better serve them.</string>
+    <string name="btnSet">TURN ON</string>
+    <string name="tv_Message3">NOT NOW</string>
+    <string name="toast_Message">button click</string>
+</resources>

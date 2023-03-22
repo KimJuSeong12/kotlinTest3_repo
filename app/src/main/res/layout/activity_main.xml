@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/ivFirst"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_launcher_background" />
+
+
+    <TextView
+        android:id="@+id/tvfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivFirst"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_Message1"
+        android:textSize="@dimen/txt_size_medium" />
+
+    <TextView
+        android:id="@+id/tvSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvfirst"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_Message2"
+        android:textSize="@dimen/txt_size_small" />
+
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSecond"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round_button"
+        android:textColor="@color/btn_color"
+        android:text="@string/btnSet"
+        android:textSize="@dimen/txt_size_medium" />
+
+    <TextView
+        android:id="@+id/tvThird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSet"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_Message3"
+        android:textSize="@dimen/txt_size_small" />
+
+
+</RelativeLayout>
